@@ -122,7 +122,6 @@ async def progress_dl(message : Message, aria2_api : aria2.aria2, gid : int, pre
                     seeder = download.num_seeders if download.is_torrent else 1,
                     eta = download.eta_string(),
                     gid = download.gid
-                    down_size = float(percentage[:-1])*float(total_size[:-3])//100
                 )
                 if text != previous_text:
                     await message.edit(
