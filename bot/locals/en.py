@@ -7,7 +7,7 @@ LOCAL = Local({
     'LEECH_LIST_MESSAGE_HEADER' : '<b>Leech Status</b>',
     'LEECH_LIST_FORMAT' : 'Name: <code>{name}</code>\nStatus: {status}\nID: <code>{gid}</code>\n\n',
     'ARIA2_CHECKING_LINK' : "🔎Checking Your Link....",
-    'ARIA2_DOWNLOAD_STATUS' : "➟ File Name : <code>{name}</code>\n \n➟ File Size : {total_size}\n \n➟ Status : Downloading\n \n➟ Download Speed : {download_speed}\n \n➟ [ {block} ]\n \n➟ Downloaded : {percentage}\n \n➟ Downloaded : {down_size}\n \n➟ Seeders : {seeder}\n \n➟ ETA : {eta}\n  \n➟ File ID : <code>{gid}\n \n➟ Join : @mybotz",
+    'ARIA2_DOWNLOAD_STATUS' : "➟ File Name : <code>{name}</code>\n \n➟ File Size : {total_size}\n \n➟ Status : Downloading\n \n➟ Download Speed : {download_speed}\n \n➟ [ {block} ]\n \n➟ Downloaded : {percentage}\n \n➟ Seeders : {seeder}\n \n➟ ETA : {eta}\n  \n➟ File ID : <code>{gid}\n \n➟ Join : @mybotz",
     'ARIA2_DOWNLOAD_SUCCESS' : 'File downloaded\nFile Name: k<code>{name}</code>',
     'ARIA2_DOWNLOAD_CANCELED' : 'Download canceled\nFile Name : <code>{name}</code>',
     'ARIA2_DEAD_LINK' : '❗Download auto canceled\nFile Name : <code>{name}</code>\n❌Your Torrent/Link is Dead❌.',
